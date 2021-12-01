@@ -68,3 +68,16 @@ footer {
 footer address:last-child {
     margin-bottom: 0;
 }
+
+/*RESPONSIVIDADE*/
+@media(min-width: 768px) {
+    .colunas-2 {
+    width: 50%;
+    float: left;
+    }
+
+    #paineis-sobre {
+        margin-top: 0;
+    }
+
+}
