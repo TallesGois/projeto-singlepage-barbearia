@@ -20,11 +20,11 @@ header h1 {
     color: #fff;
     background-color: rgba(0, 0, 0, 0.75);
     padding: 20px;
-    width: 80%;
+    max-width: 90%;
     border-radius: 8px;
-    position: absolute;
     top: 50%;
     left: 50%;
+    position: absolute;
     transform: translate(-50%, -50%);
     transition: 0.3s;
 }
@@ -71,13 +71,19 @@ footer address:last-child {
 
 /*RESPONSIVIDADE*/
 @media(min-width: 768px) {
-    .colunas-2 {
-    width: 50%;
-    float: left;
-    }
-
     #paineis-sobre {
         margin-top: 0;
     }
 
 }
+
+@media(min-width: 992px) {
+
+    /*.mustache-bannerWrapper {
+        position: relative;
+        height: 100%;
+    }*/
+
+}
+
+
